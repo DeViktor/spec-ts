@@ -1,0 +1,32 @@
+{
+  "name": "e2e-test",
+  "version": "1.0.0",
+  "description": "this is a repo for study end-to-end tests",
+  "main": "index.ts",
+  "author": "@DeViktor",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "4.3.1",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:e2e": "jest --config jest-e2e.config.ts"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.246",
+    "@swc/jest": "^0.2.22",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^29.0.0",
+    "@types/node": "^18.7.14",
+    "@types/pg": "^8.6.5",
+    "@types/supertest": "^2.0.12",
+    "jest": "^29.0.2",
+    "pg": "^8.8.0",
+    "prisma": "^4.3.1",
+    "supertest": "^6.2.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  }
+}
